@@ -30,7 +30,7 @@ var config = {
   // 社区的域名
   host: 'localhost',
   // 默认的Google tracker ID，自有站点请修改，申请地址：http://www.google.com/analytics/
-  google_tracker_id: 'UA-4175xxxx-x',
+  google_tracker_id: 'UA-56561939-1',
 
   // mongodb 配置
   db: 'mongodb://127.0.0.1/node_club_dev',
