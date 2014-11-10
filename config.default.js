@@ -10,9 +10,9 @@ var config = {
 
   get mini_assets() { return !this.debug; }, // 是否启用静态文件的合并压缩，详见视图中的Loader
 
-  name: 'Nodeclub', // 社区名字
-  description: 'CNode：Node.js专业中文社区', // 社区的描述
-  keywords: 'nodejs, node, express, connect, socket.io',
+  name: '加拿大互动社区', // 社区名字
+  description: '加拿大信息交流社区', // 社区的描述
+  keywords: 'Canada, China, Connection',
 
   // 添加到 html head 中的信息
   site_headers: [
@@ -74,7 +74,7 @@ var config = {
   weibo_id: 'your_weibo_id',
 
   // admin 可删除话题，编辑标签，设某人为达人
-  admins: { user_login_name: true },
+  admins: { admin:true, user_login_name: true },
 
   // github 登陆的配置
   GITHUB_OAUTH: {
